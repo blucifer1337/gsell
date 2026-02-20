@@ -1,0 +1,315 @@
+{
+
+    "about": {
+        "builder": true,
+        "name": "About Us",
+        "content": {
+            "heading": "text",
+            "images": {
+                "about_image": {
+                    "size": "659x654"
+                }
+            }
+        },
+        "element": {
+            "title": "text",
+            "description": "textarea",
+            "icon": "icon",
+            "modal": true
+        }
+    },
+
+    "about_dark": {
+        "builder": false,
+        "name": "About Us Dark",
+        "content": {
+
+        }
+    },
+
+
+    "auth_bg": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Auth Background",
+        "content": {
+            "images": {
+                "background_image": {
+                    "size": "1259x1080"
+                }
+            }
+        }
+    },
+
+    "banner": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Banner Section",
+        "content": {
+            "heading": "text",
+            "subheading": "text"
+        }
+    },
+
+    "blog": {
+        "builder": true,
+        "name": "Blog Section",
+        "content": {
+            "heading": "text"
+        },
+        "element": {
+            "images": {
+                "image": {
+                    "size": "1200x700",
+                    "thumb": "422x280"
+                }
+            },
+            "title": "text",
+            "date": "text",
+            "description": "textarea-rich",
+            "modal": false
+        }
+    },
+
+    "browse_topic": {
+        "builder": true,
+        "no_selection": false,
+        "name": "Browse Topic",
+        "content": {
+            "heading": "text"
+        }
+    },
+
+    "contact_us": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Contact Us",
+        "content": {
+            "images": {
+                "contact_image": {
+                    "size": "540x570"
+                }
+            },
+            "title": "text",
+            "short_details": "text",
+            "email_address": "text",
+            "support_email": "text",
+            "address": "text",
+            "contact_details": "text",
+            "contact_number": "text",
+            "subscribe_short_desc": "text",
+            "contact_title": "textarea-rich",
+            "latitude": "text",
+            "longitude": "text",
+            "website_footer": "textarea-rich"
+        }
+    },
+
+    "counter": {
+        "builder": true,
+        "name": "Counter Section",
+        "content": {
+            "heading": "text",
+            "subheading": "text"
+        },
+        "element": {
+            "title": "text",
+            "counter_digit": "text",
+            "sub_title": "text",
+            "counter_icon": "icon",
+            "counter_icon_2": "icon",
+            "modal": true
+        }
+    },
+
+    "discount": {
+        "builder": true,
+        "no_selection": false,
+        "name": "Discount(Weekly Deals)",
+        "content": {
+            "title": "text",
+            "images": {
+                "background_image": {
+                    "size": "1920x722"
+                }
+            }
+        }
+    },
+
+    "faq": {
+        "builder": true,
+        "name": "FAQ Section",
+        "content": {
+            "images": {
+                "background_image": {
+                    "size": "1920x757"
+                }
+            },
+            "heading": "text"
+        },
+        "element": {
+            "question": "text",
+            "answer": "textarea-rich",
+            "modal": false
+        }
+    },
+
+    "feature": {
+        "builder": true,
+        "name": "Feature",
+        "content": {
+            "images": {
+                "feature_image": {
+                    "size": "648x657"
+                }
+            },
+            "heading": "text",
+            "description": "textarea"
+
+        },
+        "element": {
+            "title": "text",
+            "description": "textarea",
+            "feature_icon": "icon",
+            "modal": true
+        }
+    },
+
+    "feedback": {
+        "builder": true,
+        "no_selection": false,
+        "name": "Feedback",
+        "content": {
+            "title": "text",
+            "subtitle": "text"
+        },
+        "element": {
+            "images":{
+                "feedback_image":{
+                    "size":"256x244"
+                }
+            },
+            "title": "text",
+            "designation": "text",
+            "description": "textarea",
+            "star_count": "text",
+            "modal": true
+        }
+    },
+
+    "gift_card": {
+        "builder": true,
+        "no_selection": false,
+        "name": "Gift Card",
+        "content": {
+            "title": "text"
+        }
+    },
+
+    "hero": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Hero Contents",
+        "content": {
+            "images": {
+                "background_image": {
+                    "size": "1920x722"
+                }
+            }
+        }
+    },
+
+    "latest_releases": {
+        "builder": true,
+        "no_selection": false,
+        "name": "Most Popular",
+        "content": {
+            "title": "text"
+        }
+    },
+
+    "policy_pages": {
+        "builder": false,
+        "no_selection":true,
+        "name": "Policy Pages",
+        "element": {
+            "title": "text",
+            "details": "textarea-rich",
+            "modal": false
+        }
+    },
+
+    "service": {
+        "builder": true,
+        "name": "Service Section",
+        "content": {
+            "select":{
+                "name":"trx_type",
+                "options":{
+                  "deposit":"Deposit",
+                  "withdraw":"Withdraw"
+                }
+            },
+            "heading": "text",
+            "subheading": "text"
+        },
+        "element": {
+            "select":{
+                "name":"trx_type",
+                "options":{
+                  "deposit":"Deposit",
+                  "withdraw":"Withdraw"
+                }
+            },
+            "service_icon": "icon",
+            "title": "text",
+            "description": "textarea",
+            "modal": false
+        }
+    },
+
+    "subscribe": {
+        "builder": true,
+        "name": "Subscribe Section",
+        "content": {
+            "heading": "text",
+            "subheading": "text"
+        }
+    },
+
+    "social_icon": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Social Icons",
+        "element": {
+            "title": "text",
+            "social_icon": "icon",
+            "url": "text",
+            "modal": false
+        }
+    },
+
+    "top_up": {
+        "builder": true,
+        "no_selection": false,
+        "name": "Top Up",
+        "content": {
+            "title": "text",
+            "images": {
+                "background_image": {
+                    "size": "1920x722"
+                }
+            }
+        }
+    },
+
+    "tranding": {
+        "builder": true,
+        "no_selection": false,
+        "name": "Tranding",
+        "content": {
+            "title": "text"
+        }
+    }
+
+}
